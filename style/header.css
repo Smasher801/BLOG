@@ -39,7 +39,8 @@ p{
 }
 .text{
     font-family: 'Marck Script', cursive;
-    font-size: 10px;
+    font-size: 15px;
+    color: black;
 }
 .logo{
     font-family: 'Satisfy', cursive;
@@ -47,6 +48,6 @@ p{
     margin-bottom : -30px;
     margin-top: -39px;
     padding :inherit;
-    color: blue;
+    color: rgb(255, 123, 0);
     
 }
