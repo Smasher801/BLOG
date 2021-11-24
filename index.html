@@ -77,7 +77,7 @@
 
           <div class="modal2 " id="modal-2">
             <!-- <h4>Welcome Back</h4> -->
-            <form class="p-3 mb-2 bg-white text-dark bg-white w-25 w-25 form2" >
+            <form class="p-3 mb-2 bg-white text-dark bg-white w-25 w-25 form2 " action="#" onsubmit="return validation2()" >
                <div class="d-flex justify-content-end "> <button type="button" class="btn-close btn-sm justify-content-end" aria-label="Close" onclick="closeButton2()"></button></div>
                 <div class="d-flex justify-content-center"><h4 class="justify-content-center">Get Started</h4> </div>
                     
@@ -85,23 +85,26 @@
                 <hr style="width:100%;text-align:left;margin-left:0"> 
                 <div class="mb-3" >
                   <label type="text" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="email2" autocomplete="off" aria-describedby="emailHelp" required>
-                  
+                  <input type="text" class="form-control" id="name1" autocomplete="off" >
+                  <div id="username"></div>
                 </div>
                 <div class="mb-3" >
                   <label type = "text" class="form-label">Username</label>
-                  <input type="text" class="form-control" autocomplete="off"  id="pass1" required >
+                  <input type="text" class="form-control" autocomplete="off"  id="name2"  >
+                  <span id="username1"></span>
                 </div>
                 <div class="mb-3" >
                   <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" autocomplete="off"  id="pass2" required >
+                  <input type="password" class="form-control" autocomplete="off"  id="pass2" >
+                  <div id="pwd1"></div>
                 </div>
                 <div class="mb-3" >
                   <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-                  <input type="password" class="form-control" autocomplete="off" id="pass3" required>
+                  <input type="password" class="form-control" autocomplete="off" id="pass3">
+                  <div id="pwd2"></div>
                 </div>
                 <div class="d-grid gap-2 mb-4">
-                <button type="submit" class="btn btn-success">SignIn</button>
+                <button type="submit" class="btn btn-success">SignUp</button>
                </div>
               
               </form>
